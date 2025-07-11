@@ -1,0 +1,392 @@
+/* Fonts */
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.raleway-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+
+/* Start Sheared Style Section */
+
+.primary-botton{
+    border: 1px solid #fff;
+    padding: 12px 36px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight:bold;
+    background-color: #4E47FF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.primary-botton:hover{
+    background: linear-gradient(to right, rgba(255, 18, 73, 0.801), rgba(18, 81, 255, 0.472));
+}
+
+
+/* End Sheared Style Section */
+
+
+
+
+
+/* Start Header section */
+.background-image{
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+/* End Header section */
+
+
+
+
+/* Start Navbar Section */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.nav-img{
+    font-size: 34px;
+    font-weight: 800;
+    color: #4E47FF;
+}
+
+/* End Navbar Section */
+
+
+
+/* Start Hero Section */
+.header-hero{
+    max-width: 905px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.hero-title{
+    font-weight: bold;
+    font-size: 65px;
+    color: #252432;
+    
+}
+
+/* End Hero Section */
+
+
+/* Start Main  */
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    
+}
+
+
+/* Start Action Section */
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 150px;
+}
+
+.action-item{
+    max-width: 517px;
+}
+
+
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+
+}
+
+.action-des{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+
+}
+
+.action-container img{
+    border-radius: 50px;
+}
+
+/* End Action Section */
+
+
+
+
+/* Start Productive User Section */
+
+
+.productive-user{
+    padding: 50px 150px;
+    background-color: rgba(78, 71, 255, 0.1);
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.productive-user-title{
+    font-size: 38px;
+    color: #252432;
+    font-weight: bold;
+}
+
+.productive-user-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.item h2{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0;
+}
+
+.item p{
+    text-align: center;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+/* End Productive User Section */   
+
+
+
+/* Start Review Section */
+
+.review{
+    margin: 116px 150px;
+}
+
+.review-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.user-reivew-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-review-item{
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgba(71, 209, 255, 0.104);
+    margin: 20px 0;
+    box-shadow: 0 0 50px rgba(77, 71, 255, 0.25);
+    max-width: 366.67px;
+}
+
+.user-review-item:hover{
+    background-color: #fff;
+}
+
+.user-review-profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-review-description{
+    font-size: 20px;
+    color: rgba(30, 30, 30, 1);
+}
+
+.user-review-profile img{
+    border-radius: 50px;
+}
+.user-review-profile-info{
+    margin: 0;
+    padding: 0;
+}
+
+.user-review-profile-info h5{
+    color: rgba(117, 117, 117, 1);
+    font-size: 18px;
+    margin: 0;
+}
+
+.user-review-profile-info p{
+    color: rgba(179, 179, 179, 1);
+
+}
+/* End Review Section */
+
+
+/* Start Focus Section */
+
+.focus{
+    margin: 116px 150px;
+    padding: 70px 0;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 50px rgba(77, 71, 255, 0.25);
+}
+
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.focus-description{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+.focus-part-1{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.focus-part-2 img{
+    border-radius: 50px;
+}
+/* End Focus Section */
+
+
+/* Start Newsletter Section */
+
+.newsletter{
+    margin: 116px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter-title{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.newsletter-title-section{
+    max-width: 528px;
+}
+
+.newsletter-form{
+    max-width: 497px;
+}
+
+.newsletter-form label{
+    font-size: 18px;
+    
+}
+
+
+.newsletter-form input[type="email"] , input[type="text"] {
+    font-size: 20px;
+    padding: 32px;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(214, 221, 237, 1);
+    margin-bottom: 24px;
+    margin-top: 10px;
+    display: block;
+    width: 83%;
+}
+
+.newsletter-form textarea{
+    font-size: 20px;
+    padding: 32px;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(214, 221, 237, 1);
+    margin-bottom: 24px;
+    display: block;
+    margin-top: 10px;
+    width: 83%;
+}
+
+.newsletter-btn{
+    width: 100%;
+}
+
+/* End Newsletter Section */
+
+/* End Main */
+
+
+
+/* Start Footer */
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 130px 0;
+}
+
+.footer-container{
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.footer-title{
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer-description{
+    font-size: 18px;
+    color: rgba(137, 135, 161, 1);
+    text-align: center;
+    margin: 20px 0;
+    padding: 0;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer li a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    margin: 25px;
+}
+/* End Footer */
